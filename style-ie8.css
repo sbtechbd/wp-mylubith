@@ -1,0 +1,17 @@
+/*CSS patches for older IE versions*/
+
+#access .menu-header ul,
+div.menu ul {
+    display: inline;
+    zoom: 1;
+}
+
+#access ul ul {
+    left: 0;
+}
+
+/* Main global 'theme' and typographic styles */
+body {
+	border: 2px solid rgb(229, 229, 229);
+}
+
